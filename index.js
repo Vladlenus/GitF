@@ -1,4 +1,4 @@
-
+console.log('2 sex')
 import path from'path';
 
 import express from 'express';
