@@ -1,4 +1,4 @@
-
+console.log('2 sex')
 import path from'path';
 
 import express from 'express';
@@ -18,7 +18,7 @@ const app = express();
 console.log('1 nane')
 app.use(express.json())
 
-app.post('/auth/register', async(req, res)=>{res.send('111jello'), console.log('ssssss')
+app.post('https://mumbayumba.herokuapp.com', async(req, res)=>{res.send('111jello'), console.log('ssssss')
 const doc = new UserModel({
     email: req.body.email,
     fullName: req.body.fullName,
@@ -30,7 +30,7 @@ const doc = new UserModel({
     const user = await doc.save();
 })
 
-app.get('/auth/register',(req, res)=>{
+app.get('https://mumbayumba.herokuapp.com',(req, res)=>{
     res.sendFile(createPath('index'));
 });
 console.log('2 sex')
