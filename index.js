@@ -35,7 +35,7 @@ app.get('https://mumbayumba.herokuapp.com',(req, res)=>{
 });
 console.log('2 sex')
 
-app.listen(4444, (err)=> {
+app.listen(process env PORT, (err)=> {
     if(err){
         return console.log('sos')
     }
