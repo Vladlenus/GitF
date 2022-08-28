@@ -25,7 +25,7 @@ const doc = new UserModel({
     
 });
 
-console.log(doc)
+// console.log(doc)
 
     const user = await doc.save();
 })
