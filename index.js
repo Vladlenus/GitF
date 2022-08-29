@@ -35,7 +35,7 @@ app.get('/auth/register',(req, res)=>{
 });
 console.log('2 sex')
 
-app.listen(process env PORT, (err)=> {
+app.listen(process.env.PORT, (err)=> {
     if(err){
         return console.log('sos')
     }
