@@ -1,6 +1,5 @@
 `<li>
-    ${content[key].name}<h1>${content[key].name}</h1>
-    <img src="${content[key].text}"   alt="${content[key].text}">
+    2<h1>r</h1>
     </li>
     
     `
